@@ -1,5 +1,5 @@
-let real_time = document.getElementById ("currentUTCTime")
-let TodayDate = document.getElementById ("currentDayOfTheWeek");
+let real_time = document.getElementById ("currentTime")
+let TodayDate = document.getElementById ("currentDay");
 
 setInterval (() => {
     let T = new Date();

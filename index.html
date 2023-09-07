@@ -12,10 +12,10 @@
 
     <div id="profile_top">
         <h2>Profile</h2>
-        <img src="/images/derekimage.png" id="slackDisplayImage">
+        <img src="/images/derekimage.png" data-testid="slackDisplayImage">
 
         <div class="Same_L">
-            <h1 id="slackUserName">Okoro Emmanuel Nzube</h1>
+            <h1 data-testid="slackUserName">Okoro Emmanuel Nzube</h1>
             <a href="/">Edit</a>    
         </div>
     </div>
@@ -28,12 +28,12 @@
 
     <div id="real_time">
         <i class="fa-regular fa-clock"></i>
-        <p id="currentUTCTime"></p>
+        <p data-testid="currentUTCTime" id="currentTime"></p>
     </div>
 
     <div id="TodayDate">
         <i class="fa-regular fa-calendar-days"></i>
-        <p id="currentDayOfTheWeek"></p>
+        <p data-testid="currentDayOfTheWeek" id="currentDay"></p>
     </div>
 
 
@@ -74,8 +74,8 @@
         <a href="/"> <i class="fa-solid fa-plus"></i> Add Start Date</a>
 
 
-        <p id="myTrack">Track: Frontend Development</p>
-        <div id="githubURL">
+        <p data-testid="myTrack">Track: Frontend Development</p>
+        <div data-testid="githubURL">
             <p>GitURL:</p>
             <a href="https://github.com/Derekvibe/HNG_Task_1.git">Click Here to access the source code</a>
         </div>
