@@ -25,10 +25,14 @@ body{
 
 #container1{
     background-color: #ffff;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 98%;
+    margin: 30px;
+    max-width: 100%;
+    min-height: 80vh;
+    padding: 2rem;
+    place-items: center;
+    justify-items: center;
     border-radius: 20px;
-    width: 420px;
 }
 
 #profile_top{
@@ -81,13 +85,3 @@ body{
 #About a:hover{
     color: blue;
 }
-
-@media screen and (min-width: 480px) {
-    #container {
-        width: 98%;
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-  }
