@@ -2,46 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
-
 
 body{
-    background-color:  rgb(189, 187, 187);
+    background-color: azure;
+} 
+
+
+#container1 {
+    width: 1200px;
     margin: auto;
-    max-width: fit-content;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#container1, #real_time, #TodayDate {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
-#container1{
-    background-color: #ffff;
-    width: 98%;
-    margin: 30px;
     max-width: 100%;
     min-height: 80vh;
-    padding: 2rem;
+    padding: 3rem;
+    display: grid;
     place-items: center;
     justify-items: center;
+    background-color: #fff;
     border-radius: 20px;
 }
 
-#profile_top{
-    margin-top: 25%;
-    padding-top: 50px;
+#profile_top {
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
 }
 
 #profile_top img {
-    width: 45%;
     border-radius: 50%;
 }
 
@@ -69,6 +56,9 @@ body{
     padding-bottom: 50px;
     margin-top: 15px;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #About p {
@@ -85,3 +75,17 @@ body{
 #About a:hover{
     color: blue;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    } */
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
