@@ -10,40 +10,47 @@
 <body>
     <div id="container1">
 
-    <div id="profile_top">
-        <h2>Profile</h2>
-        <img src="/images/derekimage.png" data-testid="slackDisplayImage">
+        <div id="profile_top">
 
-        <div class="Same_L">
-            <h1 data-testid="slackUserName">Okoro Emmanuel Nzube</h1>
-        </div>
-    </div>
+            <!-- PROFILE IMAGE -->
+            <h2>Profile</h2>
+            <img src="/images/derekimage.png" data-testid="slackDisplayImage">
 
-    <div id="real_time">
-        <i class="fa-regular fa-clock"></i>
-        <p data-testid="currentUTCTime"></p>
-    </div>
-
-    <div id="TodayDate">
-        <i class="fa-regular fa-calendar-days"></i>
-        <p data-testid="currentDayOfTheWeek"></p>
-    </div>
-
-    <div id="About">
-        <div class="Same_L2">
-            <h3>About me</h3>
+            <!-- PROFILE NAME -->
+            <div class="Same_L">
+                <h1 data-testid="slackUserName">Okoro Emmanuel Nzube</h1>
+            </div>
         </div>
 
-        <p data-testid="myTrack">Track: Frontend Development</p>
-        <div data-testid="githubURL">
-            <p>GitURL:</p>
-            <a href="https://github.com/Derekvibe/HNG_Task_1.git">Click Here to access the source code</a>
+        <!-- CURRENT DAY OF THE WEEK-->
+        <div id="TodayDate">
+            <i class="fa-regular fa-calendar-days"></i>
+            <p data-testid="currentDayOfTheWeek"></p>
         </div>
-    </div>
+
+        <!-- CURRENT TIME IN UTC FORMAT -->
+        <div id="real_time">
+            <i class="fa-regular fa-clock"></i>
+            <p data-testid="currentUTCTime"></p>
+        </div>
+
+
+
+        <div id="About">
+
+            <!-- MY TRACK -->
+            <p data-testid="myTrack">Track: Frontend Development</p>
+            
+            <!-- GITHUB URL -->
+            <div data-testid="githubURL">
+                <p>GitURL:</p>
+                <a href="https://github.com/Derekvibe/HNG_Task_1.git">Click Here to access the source code</a>
+            </div>
+        </div>
 
 
     
-</div>
+    </div>
 
     <script src="App.js"></script>
 </body>

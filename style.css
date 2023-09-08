@@ -11,7 +11,17 @@ body{
     max-width: fit-content;
     border-bottom: 1px solid rgb(218, 215, 215);
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+#container1, #real_time, #TodayDate {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 #container1{
     background-color: #ffff;
@@ -19,8 +29,6 @@ body{
     margin-bottom: 15px;
     border-radius: 20px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 #profile_top h2 {
@@ -29,7 +37,6 @@ body{
 }
 
 #profile_top img {
-    margin-left: 25%;
     margin-top: 15px;
     width: 50%;
     border-radius: 20px;
@@ -44,8 +51,6 @@ body{
     font-size: 26px;
     padding-left: 20px;
 }
-
-
 
 #real_time {
     display: flex;
@@ -74,31 +79,11 @@ body{
     font-size: 20px; 
 }
 
-
-
 #About {
     padding-top: 10px;
     padding-bottom: 20px;
-    border-top:1px solid rgb(218, 215, 215);
     margin-top: 15px;
     padding-left: 20px;
-}
-.Same_L2 {
-    display: flex;
-}
-
-.Same_L2 a {
-    text-decoration: none;
-    padding-top: 5px;
-    margin-left: 350px;
-    font-size: 20px;
-}
-
-
-#About a{
-    text-decoration: none;
-    margin-top: 10px;
-    font-size: 18px;
 }
 
 #About p {
@@ -115,4 +100,3 @@ body{
 #githubURL {
     padding-bottom: 20px;
 }
-
