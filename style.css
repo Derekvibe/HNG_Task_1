@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: azure;
+    background-color: rgb(161, 157, 157);
 } 
 
 
@@ -18,8 +18,9 @@ body{
     display: grid;
     place-items: center;
     justify-items: center;
-    background-color: #fff;
+    background-color: #ffff;
     border-radius: 20px;
+    margin-top: 30px;
 }
 
 #profile_top {
