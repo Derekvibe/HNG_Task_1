@@ -32,16 +32,14 @@ body{
     width: 100%;
 }
 
-#profile_top h2 {
-    padding: 20px;
-    border-bottom: 1px solid rgb(218, 215, 215);
+#profile_top{
+    margin-top: 25%;
 }
-
 
 #profile_top img {
     margin-top: 15px;
-    width: 50%;
-    border-radius: 20px;
+    width: 30%;
+    border-radius: 50%;
 }
 
 #real_time {
@@ -54,10 +52,6 @@ body{
     font-size: 20px;
 }
 
-#real_time i {
-    padding-right: 15px;
-    font-size: 20px;
-}
 
 #TodayDate {
     display: flex;
@@ -66,10 +60,6 @@ body{
     font-size: 20px;
 }
 
-#TodayDate i {
-    padding-right: 15px;
-    font-size: 20px; 
-}
 
 #About {
     padding-top: 10px;
