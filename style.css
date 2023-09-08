@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
 body{
     background-color:  rgb(189, 187, 187);
     margin: auto;
     width: 40%;
     max-width: fit-content;
-    border-bottom: 1px solid rgb(218, 215, 215);
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -36,20 +37,11 @@ body{
     border-bottom: 1px solid rgb(218, 215, 215);
 }
 
+
 #profile_top img {
     margin-top: 15px;
     width: 50%;
     border-radius: 20px;
-}
-
-.Same_L{
-    display: flex;
-    margin-top: 5px;
-}
-
-.Same_L h1{
-    font-size: 26px;
-    padding-left: 20px;
 }
 
 #real_time {

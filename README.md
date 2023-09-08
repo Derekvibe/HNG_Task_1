@@ -47,4 +47,3 @@ Before finalising your submission, thoroughly review your work to ensure accurac
 SUBMISSION DEADLINE
 The deadline for submissions is September 12, 2023, at 11:59 PM WAT. Late submissions will not be entertained.
 NB: If you encounter any issues or have questions regarding the submission process, please message any of the frontend mentors.
-Click Here to submit: https://docs.google.com/forms/d/e/1FAIpQLSdyExqRMAJKXMEaMblQ-YoYQ4t9M9VLnWeEkNr--XVCuFoQrw/viewform (edited)
