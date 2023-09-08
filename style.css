@@ -14,8 +14,8 @@ body{
     margin: auto;
     max-width: 100%;
     min-height: 80vh;
-    padding: 3rem;
     display: grid;
+    gap: 10px;
     place-items: center;
     justify-items: center;
     background-color: #ffff;
