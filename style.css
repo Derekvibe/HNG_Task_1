@@ -33,30 +33,18 @@ body{
     border-radius: 50%;
 }
 
-#real_time {
-    display: flex;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
 #real_time p {
     font-size: 20px;
 }
 
 
 #TodayDate {
-    display: flex;
     padding-left: 20px;
-    margin-top: 15px;
     font-size: 20px;
 }
 
 
 #About {
-    padding-top: 10px;
-    padding-bottom: 50px;
-    margin-top: 15px;
-    padding-left: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -76,17 +64,3 @@ body{
 #About a:hover{
     color: blue;
 }
-
-@media screen and (max-width: 768px) {
-    .container {
-      max-width: 90%;
-    } */
-
-
-
-
-@media screen and (max-width: 768px) {
-    .container {
-      max-width: 90%;
-    }
-  }
