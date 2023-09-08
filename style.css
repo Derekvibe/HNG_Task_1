@@ -18,6 +18,9 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #profile_top h2 {
@@ -42,35 +45,7 @@ body{
     padding-left: 20px;
 }
 
-.Same_L a {
-    text-decoration: none;
-    padding-top: 5px;
-    margin-left: 120px;
-    font-size: 20px;
-}
 
-.next_p{
-    margin-top: 20px;
-    padding-left: 20px;
-}
-
-.next_p p {
-    padding: 10px 0;
-}
-
-.next_p a {
-    text-decoration: none;
-    padding-top: 5px;
-    font-size: 18px;
-}
-.next_p i {
-    padding-right: 15px;
-}
-
-.next_p .fa-circle {
-    color: green;
-    font-size: small;
-}
 
 #real_time {
     display: flex;
@@ -99,88 +74,14 @@ body{
     font-size: 20px; 
 }
 
-#dayOfWeek {
-    padding-left: 5px;
-}
 
-#status {
-    display: flex;
-    padding-left: 20px;
-    margin-top: 30px;
-    border-bottom: 1px solid rgb(218, 215, 215);
-
-}
-
-#status p {
-    background: none;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    margin-right: 10%;
-    padding: 10px;
-    width: 20%;
-    margin-bottom: 15px;
-}
-
-.fa-ellipsis-vertical {
-    font-size: 20px;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-bottom: 15px;
-}
-
-#contact, #About {
-    margin-top: 15px;
-    padding-left: 20px;
-
-}
-
-.Same_L1 {
-    display: flex;
-}
-
-.Same_L1 a {
-    text-decoration: none;
-    padding-top: 5px;
-    margin-left: 260px;
-    font-size: 20px;
-}
-
-.together {
-    display: flex;
-    margin-top: 20px;
-}
-
-.fa-envelope {
-    font-size: 30px;
-    padding: 5px  10px 10px 0px;
-    font-weight: 100;
-}
-.together p{
-    padding-bottom: 5px;
-}
-
-.together a {
-    text-decoration: none;
-}
-
-.down {
-   margin-top: 20px;
-   padding-bottom:40px ;
-   border-bottom: 1px solid rgb(218, 215, 215)
-}
-
-.down a{
-    text-decoration: none;
-    padding-top: 5px;
-    font-size: 18px;
-}
-
-.down i {
-    padding-right: 15px;
-}
 
 #About {
     padding-top: 10px;
+    padding-bottom: 20px;
+    border-top:1px solid rgb(218, 215, 215);
+    margin-top: 15px;
+    padding-left: 20px;
 }
 .Same_L2 {
     display: flex;
