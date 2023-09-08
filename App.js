@@ -1,5 +1,6 @@
-let real_time = document.getElementById ("currentTime")
-let TodayDate = document.getElementById ("currentDay");
+let real_time = document.querySelector ('[data-testid="currentUTCTime"]')
+let TodayDate = document.querySelector('[data-testid="currentDayOfTheWeek"]');
+let dayElement = document.getElementById("dayOfWeek");
 
 setInterval (() => {
     let T = new Date();
@@ -8,3 +9,15 @@ setInterval (() => {
 
 let d = new Date ();
 TodayDate.innerHTML = d.toLocaleDateString();
+
+
+let currentDate = new Date();
+
+let dayOfWeek = currentDate.getDay();
+
+let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+let dayName = daysOfWeek[dayOfWeek];
+
+dayElement.textContent = dayName;
+
