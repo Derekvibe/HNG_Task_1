@@ -9,7 +9,6 @@
 body{
     background-color:  rgb(189, 187, 187);
     margin: auto;
-    width: 40%;
     max-width: fit-content;
     box-sizing: border-box;
     justify-content: center;
@@ -29,16 +28,16 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 20px;
-    width: 100%;
+    width: 420px;
 }
 
 #profile_top{
     margin-top: 25%;
+    padding-top: 50px;
 }
 
 #profile_top img {
-    margin-top: 15px;
-    width: 30%;
+    width: 45%;
     border-radius: 50%;
 }
 
@@ -63,7 +62,7 @@ body{
 
 #About {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin-top: 15px;
     padding-left: 20px;
 }
@@ -80,5 +79,5 @@ body{
 }
 
 #githubURL {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
