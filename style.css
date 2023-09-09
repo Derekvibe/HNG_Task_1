@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,4 +63,83 @@ body{
 
 #About a:hover{
     color: blue;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(182, 179, 179);
+    margin: 30px;
+}
+
+#container {
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(131, 126, 126);
+    box-shadow: 20px rgba(0,0,0,1.2);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+#TodayDate {
+    padding-top: 20px;
+}
+#Track {
+    padding-top: 20px;
+    font-weight: bolder;
+}
+p {
+    font-size: 20px;
+}
+
+
+#github {
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+#github a {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+#github a:hover{
+    color: #ff0000;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    
+    #container {
+        padding: 10px 30px;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
 }

@@ -8,23 +8,19 @@
     <title>HNG_Zuri Task one</title>
 </head>
 <body>
-    <div id="container1">
+    <!-- <div id="container1">
 
         <div id="profile_top">
 
-            <!-- PROFILE IMAGE -->
             <img src="/images/derekimage.png" data-testid="slackDisplayImage" width="200px" height="200px">
 
-            <!-- PROFILE NAME -->
                 <h2 data-testid="slackUserName">Okoro Emmanuel Nzube</h2>
         </div>
 
-        <!-- CURRENT DAY OF THE WEEK-->
         <div id="TodayDate">
             <p data-testid="currentDayOfTheWeek"></p>
         </div>
 
-        <!-- CURRENT TIME IN UTC FORMAT -->
         <div id="real_time">
             <p data-testid="currentUTCTime"></p>
         </div>
@@ -33,20 +29,38 @@
 
         <div id="About">
 
-            <!-- MY TRACK -->
-            <p data-testid="myTrack">Frontend Track</p>
             
-            <!-- GITHUB URL -->
-            <div data-testid="githubURL">
-                <p>GitURL:</p>
-                <a href="https://github.com/Derekvibe/HNG_Task_1.git">Click Here to access the source code</a>
-            </div>
+            
+        GITHUB URL
+          
         </div>
 
+    </div> -->
 
-    
+
+
+    <div id="container">
+
+        <img src="/images/derekimage.png" 
+        alt="My profile Image" 
+        data-testid="slackDisplayImage">
+
+        <h2 data-testid="slackUserName">Okoro Emmanuel Nzube</h2>
+
+            <p data-testid="currentDayOfTheWeek" id="TodayDate"></p>
+
+            <p data-testid="currentUTCTime" id="real_time"></p>
+
+            <p data-testid="myTrack" id="Track">Frontend Track </p>
+
+            <p data-testid="githubURL" id="github">GitURL:
+                <a href="https://github.com/Derekvibe/HNG_Task_1.git">
+                    Click Here to access the source code
+                </a>
+            </p>
+                
     </div>
-
     <script src="App.js"></script>
+
 </body>
 </html>
