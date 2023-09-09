@@ -6,7 +6,8 @@ let TodayDate = document.querySelector('[data-testid="currentDayOfTheWeek"]');
 setInterval (() => {
     let T = new Date();
 
-    real_time.innerHTML = T.toUTCString();
+    real_time.innerHTML = T.getTime();
+    
 }, 1000)
 
 //assigning a date varibe using let

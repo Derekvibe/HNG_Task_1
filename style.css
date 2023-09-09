@@ -102,31 +102,37 @@ h2 {
     font-size: 24px;
 }
 
-#TodayDate {
+[data-testid="currentDayOfTheWeek"] {
     padding-top: 20px;
+    padding-bottom: 10px;
 }
-#Track {
-    padding-top: 20px;
+[data-testid="myTrack"] {
+    margin-top: 20px;
     font-weight: bolder;
+    margin-bottom: 30px;
 }
+
 p {
     font-size: 20px;
 }
 
 
-#github {
+[data-testid="githubURL"] {
+    background-color: #000;
     font-size: 16px;
     font-weight: bolder;
-    padding-top: 20px;
-}
-
-#github a {
     text-decoration: none;
-    color: #0000ff;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-#github a:hover{
+[data-testid="githubURL"]:hover{
+    background-color: #fff;
     color: #ff0000;
+
 }
 
 
@@ -140,6 +146,18 @@ p {
     img {
         width: 80%;
         height: auto;
+    }
+
+    [data-testid="githubURL"] {
+        background-color: #000;
+        font-size: 12px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
     }
 
 }
