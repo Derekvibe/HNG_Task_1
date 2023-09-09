@@ -25,7 +25,7 @@ let dayName = daysOfWeek[dayOfWeek];
 // converts the current day number into a string i.e if today= 5 then it fetches the array number 5 i.e friday
 let dateString = currentDate.toLocaleDateString();
 
-let dateAndDayString = "Today is" + " " + dayName;
+let dateAndDayString = dayName;
 
 TodayDate.textContent = dateAndDayString;
 
